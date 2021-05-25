@@ -117,10 +117,7 @@ overflow:hidden
 </style>
 </head>
 <body>
-
-<audio autoplay="autopaly">
-					<source src="img/love.mp3" hidden="true" autostart="true" loop="true" />
-			</audio> 
+<audio id="player" src="img/love.mp3" loop="loop" hidden="true" autostart="true" autoplay="autoplay"></audio>
 <canvas id="c" style="position: absolute;z-index: -1;text-align: center;height:100vh;top:0;left:0;width:100%"></canvas> 
 <img onClick="playMusic(this)" class="music musicRotate" src="img/musicP.png">
 <div onclick=star() style="position: absolute;top: 200px;width: 100%;cursor: pointer;text-align:center;font-size:20px;font-weight:bold;z-index:9990"><h1 class="svoiceIcon">少年们，扬帆启航，未来可期♥</h1></div>
